@@ -1,0 +1,232 @@
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float:right;
+}
+
+.header-container{
+    width:100%;
+    height:200px;
+    background-image:url("/images/SLC From Olympus.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;   
+    position:relative;
+}
+
+.header-container .logo{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:225px;
+    /*border:1px solid #fff;*/
+}
+
+.header-container .tagline{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    /*border:1px solid #fff;*/
+    width:100%;
+    min-height:30px;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.logo img{
+    width:100%;
+    height:auto;
+}
+
+
+.phone-number-container{
+    background-color:rgba(255,255,255,0.6);
+    float:right;
+    margin:20px 35px;    
+    padding:5px;
+    font-family:"Open Sans", sans-serif;
+    font-size: 30px;
+    color:transparent;
+    /*color:#269abc;*/
+   /* text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+   -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.phone-number-container a{
+    color:#000;
+}
+.phone-number-container a:hover{
+    text-decoration:none;
+}
+
+
+.header-link-container{
+    text-align:center;
+    vertical-align:middle;
+    margin:40px 0 0 40px;
+    display:inline;
+}
+
+.header-link-container-img{
+    text-align:right;
+    height:10px;
+    max-width:100%;
+    margin:2px;
+}
+
+.header-link-container-img img{
+    width:40px;
+    height:auto;
+    padding:5px;
+}
+
+ul.inline-list{
+   list-style: none;
+   float:right;
+}
+
+
+ul.inline-list li{
+    display:inline-block;
+}
+
+
+
+.header-links{
+    width:100%;
+    height:20px;
+    background-color:#555;
+    border:1px solid #ff0000;
+}
+
+.row-centered{
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:center;
+    margin-right:-4px;
+}
+
+.nav-tabs{
+  text-align:right;  
+}
+
+.body-container{
+    background-color:#efefef;
+    height:355px;
+    background-image:url("/images/wood door.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    position:relative;
+}
+
+.having-trouble-container{
+    background-color:rgba(255,255,255,0.6);
+    text-align:center;
+    width:350px;
+    top:35px;
+    left:35px;
+    padding:10px;
+    font-family:"Open Sans", sans-serif;
+    font-size: 24px;
+    color:black;
+    position:absolute;
+}
+
+.having-trouble-container-inside{
+    text-align:center;
+    float:left;
+    text-align:center;
+    padding:10px;
+    font-family:"Open Sans", sans-serif;
+    font-size:12px;
+    color:black;
+    position:static;
+}
+
+.services-container{
+    
+}
+
+
+.supplier1{
+    height:320px;
+    background-image:url("/images/nwd.jpeg");
+    background-repeat:no-repeat;
+    background-position:left;
+    border:1px;
+    position:absolute;
+    background-position:left;
+    position:relative;
+}
+
+.supplier2{
+    height:281px;
+    background-image:url("/images/1stunited.jpeg");
+    background-repeat:no-repeat;
+    background-position:top right;
+    border:1px;
+    position:absolute;
+    background-position:top;
+    position:relative;
+}
+
+
+.footer{
+    width:100%;
+    position:absolute;
+    bottom:15px;
+    height:50px;
+    border-top: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #343434
+}
+
+.footer ul {
+  margin: 15px 0 10px 0;
+  text-align: center
+}
+
+.footer li {
+  display: inline;
+  list-style-type: none;
+}
+
+.footer li a {
+  color: #343434;
+  text-decoration: none;
+  margin: 0 5px
+}
+
+.footer li a:visited {
+  text-decoration: none
+}
+
+.footer li a:hover {
+  text-decoration: underline
+}
+
+
+.footer p {
+  text-align: center
+}
+
+.footer-social-list{
+    margin:0; padding:0;
+}
+.footer-social-list li{float:left;}
+.footer-social-list li a{margin:0 5px; display:inline-block; max-width:25px; height:25px;}
+.footer-social-list li a img{width:100%; height:auto;}
