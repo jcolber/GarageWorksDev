@@ -1,63 +1,955 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Service Areas - Utah</title>
-        <meta name="description=" content="Salt Lake City, Sandy, South Jordan">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <link type="text/css" rel="stylesheet" href="/css/bootstrap.css" />
-        <link type="text/css" rel="stylesheet"  href="/css/global.css" />
-        <link type="text/javascript" rel="javascript" href="/js/bootstrap.js" />      
-        <link type="text/javascript" rel="javascript" href="/js/jquery.js" />      
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet"  href="/css/global.css" /> 
+        
+        <script src="/js/jquery.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+                
+        <script src="/js/bootstrap.js"></script>
+        <script src="js/global.js"></script>
+        
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'  /> 
+        
+        
+        <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon'/>
+        
+        <title>Garage Works Inc. Salt Lake, Utah</title>
+
+        
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-63340541-2', 'auto');
+            ga('send', 'pageview');
+
+        </script>     
     </head>
-    
+   
     <body>
         <div class="container-fluid">
             <div class="row">
                 <div class="header-container col-xs-12" id="header-container">
                     <div class="phone-number-container hidden-xs">
-                        <a href="tel:1-801-280-3667" > 801-280-DOOR </a>
+                        <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas"> 801-280-DOOR </a>
                     </div>
                     <div class="logo">
                         <img src="/images/GarageWorks.png" />
                     </div>
                     <div class="tagline">
-                        Serving Salt Lake City since 1996.
+                        Serving Salt Lake City since 1996.<br>
+                    </div>
+                    <div class="tagline2">
+                     24/7 Emergency Service
+                    </div>
+                    <div class="header-link-container-img">
+                        <a href="https://www.facebook.com/fixthegarage/" target="blank">
+                            <img src="/images/facebook.png">
+                        </a>
+                        <a href="http://www.yelp.com/biz/garage-works-murray" target="blank">
+                            <img src="/images/yelp.png">
+                        </a>
                     </div>
                 </div>
             </div>
-          
-           <ul class="nav nav-tabs">
-               <li><a data-toggle="tab" href="index.html">Home</a></li>
-               <li><a data-toggle="tab" href="services.html">Services</a></li>
-               <li><a data-toggle="tab" href="newdoors.html">New Doors</a></li>
-               <li class="active"><a data-toggle="tab" href="serviceareas.html">Service Areas</a></li>
-               <li><a data-toggle="tab" href="aboutus.html">About Us</a></li>
-                    <ul class="inline-list">
-                        <li class="header-link-container-img">
-                            <a href="https://www.facebook.com/fixthegarage/" target="blank">
-                                 <img src="/images/facebook.png">
-                            </a>
-                        </li>
-                        <li class="header-link-container-img">
-                            <a href="http://www.yelp.com/biz/garage-works-murray" target="blank">
-                                <img src="/images/yelp.png">
-                            </a>
-                        </li>
-                    </ul>
-           </ul>
+            
+            <div class="row">
+                <nav class="navbar navbar-inverse">
+                    <div class="container">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand visible-xs hidden-sm hidden-md hidden-lg" href="tel:1-801-280-3667">(801) 280-3667</a>
+                      </div>
+                      <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="newdoors.html">New Doors</a></li>
+                          <li class="active"><a href="serviceareas.html">Service Areas</a></li>
+                          <li><a href="aboutus.html">About Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div> 
         </div> <!-- container -->
 
+        <div class="service-areas-container">
+            <div class="col-xs-3 col-xs-offset-3">
+                <ul>
+                    <li><a href="#" data-toggle="modal" data-target="#afModal">
+                       American Fork, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#bountifulModal">
+                       Bountiful, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#centervilleModal">
+                       Centerville, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#cottonwoodModal">
+                       Cottonwood Heights, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#draperModal">
+                       Draper, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#farmingtonModal">
+                       Farmington, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#heberModal">
+                       Heber City, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#herrimanModal">
+                       Herriman, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#kearnsModal">
+                       Kearns, UT    
+                       </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#laytonModal">
+                       Layton, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#lehiModal">
+                       Lehi, UT    
+                       </a></li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#magnaModal">Magna, UT</a>
+                    </li>
+                </ul>
+            </div>        
+            <div class="col-xs-3">
+                <ul>        
+                    <li><a href="#" data-toggle="modal" data-target="#millcreekModal">
+                       Millcreek, UT    
+                       </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#murrayModal">
+                       Murray, UT    
+                        </a></li>
+               
+            
+                    <li><a href="#" data-toggle="modal" data-target="#nslModal">
+                       North Salt Lake, UT    
+                       </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#pcModal">
+                       Park City, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#provoModal">
+                       Provo, UT    
+                       </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#rivertonModal">
+                       Riverton, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#slcModal">
+                       Salt Lake City, UT    
+                       </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#sandyModal">
+                       Sandy, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#southjordanModal">
+                       South Jordan, UT    
+                       </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#taylorsvilleModal">
+                       Taylorsville, UT    
+                        </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#tooeleModal">
+                       Tooele, UT    
+                       </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#westjordanModal">
+                       West Jordan, UT    
+                       </a></li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#westvalleyModal">
+                       West Valley, UT    
+                       </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
         <div class="footer">
-            <ul>
-                <li><a href="index.html">Home</a> |</li>
-                <li><a href="services.html">Services</a> |</li>
-                <li><a href="newdoors.html">New Doors</a> |</li>
-                <li><a href="serviceareas.html">Service Areas</a> |</li>
-                <li><a href="aboutus.html">About Us</a> |</li>
-            </ul>
+            <div class="col-xs-12">
+                <ul class="footer-social-list">
+                    <li><a href="http://www.yelp.com/biz/garage-works-murray" target="blank">
+                        <img src="/images/yelp.png"></a></li>
+                    <li><a href="https://www.facebook.com/fixthegarage/" target="blank">
+                        <img src="/images/facebook.png"></a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12">
+                <ul>
+                    <li><a href="index.html">Home</a> |</li>
+                    <li><a href="services.html">Services</a> |</li>
+                    <li><a href="newdoors.html">New Doors</a> |</li>
+                    <li><a href="serviceareas.html">Service Areas</a> |</li>
+                    <li><a href="aboutus.html">About Us</a> |</li>
+                </ul>
+            </div>
+   
+           
+            <div class="modal fade" tabindex="-1" role="dialog" id="afModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>American Fork, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=american fork, utah&ie=UTF8&t=m&z=11&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
 
-        </div>            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+            <div class="modal fade" tabindex="-1" role="dialog" id="bountifulModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Bountiful, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=bountiful&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->             
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="centervilleModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Centerville, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=centerville&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->             
+            
+            <div class="modal fade" tabindex="-1" role="dialog" id="cottonwoodModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Cottonwood Heights, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=cottonwood heights&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="draperModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Draper, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=draper&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="farmingtonModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Farmington, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=farmington&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="heberModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Heber City, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=heber&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="herrimanModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Herriman City, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=herriman&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="kearnsModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Kearns, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=kearns&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="laytonModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Layton, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=layton&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="lehiModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Lehi, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=lehi&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="magnaModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Magna, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=magna&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="millcreekModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Millcreek, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=millcreek&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="murrayModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Murray, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=murray&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="nslModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>North Salt Lake, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=north salt lake&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="pcModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Park City, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=park city&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="provoModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Provo, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=provo&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="rivertonModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Riverton, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=riverton&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="slcModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Salt Lake City, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=salt lake city&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="sandyModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Sandy, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=sandy&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="southjordanModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>South Jordan, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=south jordan&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="taylorsvilleModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Taylorsville, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=taylorsville&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="tooeleModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>Tooele, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=tooele&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="westjordanModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>West Jordan, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=west jordan&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+            <div class="modal fade" tabindex="-1" role="dialog" id="westvalleyModal" aria-labelledby="gridSystemModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel"><center>West Valley, Utah</center></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="google-maps">
+                                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700" height="440" src="https://maps.google.com/maps?hl=en&q=west valley&ie=UTF8&t=m&z=10&iwloc=B&output=embed">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-12">
+                                    <br><br> Same Day Service! <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="ServiceAreas">(801)280-3667</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!--          <button type="button" class="btn btn-primary">Save changes</button>-->
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+
+
+
+            
     </body>
 </html>

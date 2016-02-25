@@ -1,72 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Garage Works Inc. Salt Lake, Utah</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <link type="text/css" rel="stylesheet" href="/css/bootstrap.css" />
-        <link type="text/css" rel="stylesheet"  href="/css/global.css" />
-        <link type="text/javascript" rel="javascript" href="/js/bootstrap.js" />      
-        <link type="text/javascript" rel="javascript" href="/js/jquery.js" />      
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet"  href="/css/global.css" /> 
+        
+        <script src="/js/jquery.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+                
+        <script src="/js/bootstrap.js"></script>
+        <script src="js/global.js"></script>
+        
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'  /> 
+        
+        
+        <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon'/>
+        
+        <title>Garage Works Inc. Salt Lake, Utah</title>
+
+        
+        <script>
+           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+           ga('create', 'UA-63340541-2', 'auto');
+           ga('send', 'pageview');
+
+       </script>        
     </head>
-    
+
     <body>
         <div class="container-fluid">
             <div class="row">
                 <div class="header-container col-xs-12" id="header-container">
                     <div class="phone-number-container hidden-xs">
-                        <a href="tel:1-801-280-3667" > 801-280-DOOR </a>
+                        <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="NewDoors"> 801-280-DOOR </a>
                     </div>
                     <div class="logo">
                         <img src="/images/GarageWorks.png" />
                     </div>
                     <div class="tagline">
-                        Serving Salt Lake City since 1996.
+                        Serving Salt Lake City since 1996.<br>
+                    </div>
+                    <div class="tagline2">
+                     24/7 Emergency Service
+                    </div>
+                    <div class="header-link-container-img">
+                        <a href="https://www.facebook.com/fixthegarage/" target="blank">
+                            <img src="/images/facebook.png">
+                        </a>
+                        <a href="http://www.yelp.com/biz/garage-works-murray" target="blank">
+                            <img src="/images/yelp.png">
+                        </a>
                     </div>
                 </div>
             </div>
-          
-           <ul class="nav nav-tabs">
-               <li><a data-toggle="tab" href="index.html">Home</a></li>
-               <li><a data-toggle="tab" href="services.html">Services</a></li>
-               <li class="active"><a data-toggle="tab" href="newdoors.html">New Doors</a></li>
-               <li><a data-toggle="tab" href="serviceareas.html">Service Areas</a></li>
-               <li><a data-toggle="tab" href="aboutus.html">About Us</a></li>
-                    <ul class="inline-list">
-                        <li class="header-link-container-img">
-                            <a href="https://www.facebook.com/fixthegarage/" target="blank">
-                                 <img src="/images/facebook.png"/>
-                            </a>
-                        </li>
-                        <li class="header-link-container-img">
-                            <a href="http://www.yelp.com/biz/garage-works-murray" target="blank">
-                                <img src="/images/yelp.png"/>
-                            </a>
-                        </li>
-                    </ul>
-           </ul>
-        
-            <div class="col-xs-6">
-                <a href="http://www.northwestdoor.com" target="blank">
-                    <img src="/images/nwd.jpeg" style="width:100%; height:auto;"/>
-                </a>
+            
+            
+           
+
+            
+            <div class="row">
+                <nav class="navbar navbar-inverse">
+                    <div class="container">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand visible-xs hidden-sm hidden-md hidden-lg" href="tel:1-801-280-3667" onclick="_gaq.push(['_trackEvent', 'PageClicks', 'NewDoors'])">(801) 280-3667</a>
+                      </div>
+                      <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li class="active"><a href="newdoors.html">New Doors</a></li>
+                          <li><a href="serviceareas.html">Service Areas</a></li>
+                          <li><a href="aboutus.html">About Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
             </div>
-            <div class="col-xs-6">
-                <a href="http://firstudt.com/company/" target="blank">
-                    <img src="/images/1stunited.jpeg"/>
-                </a>
+<!--            <div class="row">
+                <ul class="nav nav-tabs nav-justified">
+                   <li><a data-toggle="tab" href="index.html">Home</a></li>
+                   <li><a data-toggle="tab" href="services.html">Services</a></li>
+                   <li class="active"><a data-toggle="tab" href="newdoors.html">New Doors</a></li>
+                   <li><a data-toggle="tab" href="serviceareas.html">Service Areas</a></li>
+                   <li><a data-toggle="tab" href="aboutus.html">About Us</a></li>
+                        <ul class="inline-list">
+                            <li class="header-link-container-img">
+                                <a href="https://www.facebook.com/fixthegarage/" target="blank">
+                                     <img src="/images/facebook.png"/>
+                                </a>
+                            </li>
+                            <li class="header-link-container-img">
+                                <a href="http://www.yelp.com/biz/garage-works-murray" target="blank">
+                                    <img src="/images/yelp.png"/>
+                                </a>
+                            </li>
+                        </ul>
+                </ul>
+            </div>-->
+        
+            <div class="our-suppliers col-xs-12">
+                <center><h1>Want to add value and curb appeal to your home? Nothing can accomplish this more than replacing your old garage door.
+                You can also improve your home's energy efficiency by having an insulated garage door.
+                <a href="tel:1-801-280-3667" class="linked-phone-number" data-page="NewDoors">Call us</a> today for a free estimate.</h1><br>
+                </center>
+            </div>
+            
+            <div class="door-container">
+                <div class="col-xs-6">
+                    <a href="http://www.northwestdoor.com" target="blank">
+                        <img src="/images/nwd.jpeg" style="width:75%; height:auto;"/>
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="http://firstudt.com/company/" target="blank">
+                        <img src="/images/1stunited.jpeg" style="width:75%; height:auto;"/>
+                    </a>
+                </div>
             </div>
         </div> <!-- container -->
-
+        <br>
+        <br>
+        <br>
         <div class="footer">
-        <ul>
-            <li><a href="index.html">Home</a> |</li>
-            <li><a href="services.html">Services</a> |</li>
-            <li><a href="newdoors.html">New Doors</a> |</li>
-            <li><a href="serviceareas.html">Service Areas</a> |</li>
-            <li><a href="aboutus.html">About Us</a> |</li>
-        </ul>
+            <div class="col-xs-12">
+                <ul class="footer-social-list">
+                    <li><a href="http://www.yelp.com/biz/garage-works-murray" target="blank">
+                        <img src="/images/yelp.png"></a></li>
+                    <li><a href="https://www.facebook.com/fixthegarage/" target="blank">
+                        <img src="/images/facebook.png"></a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12">
+                <ul>
+                    <li><a href="index.html">Home</a> |</li>
+                    <li><a href="services.html">Services</a> |</li>
+                    <li><a href="newdoors.html">New Doors</a> |</li>
+                    <li><a href="serviceareas.html">Service Areas</a> |</li>
+                    <li><a href="aboutus.html">About Us</a> |</li>
+                </ul>
+            </div>
+  
+           
         </div>
     </body>
 </html>
