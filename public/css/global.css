@@ -143,15 +143,16 @@
     position: absolute;
     top: 50%; left: 50%;
     width: 8.5em; height: 8.5em;
-    margin: -5em;
+    margin: -4.2em;
+    
 }
 .circle-container img { display: block; width: 100%; }
-.deg0 { transform: translate(9.5em); } /* 12em = half the width of the wrapper */
-.deg45 { transform: rotate(60deg) translate(9.5em) rotate(-60deg); }
-.deg135 { transform: rotate(120deg) translate(9.5em) rotate(-120deg); }
-.deg180 { transform: translate(-9.5em); }
-.deg225 { transform: rotate(240deg) translate(9.5em) rotate(-240deg); }
-.deg315 { transform: rotate(300deg) translate(9.5em) rotate(-300deg); }
+.deg0 { transform: translate(7.5em); } /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(60deg) translate(7.5em) rotate(-60deg); }
+.deg135 { transform: rotate(120deg) translate(7.5em) rotate(-120deg); }
+.deg180 { transform: translate(-7.5em); }
+.deg225 { transform: rotate(240deg) translate(7.5em) rotate(-240deg); }
+.deg315 { transform: rotate(300deg) translate(7.5em) rotate(-300deg); }
 
 .emergency{
     text-align:right;
