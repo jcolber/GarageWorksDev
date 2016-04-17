@@ -88,8 +88,9 @@
 .image-container-2{
     text-align:center;
     position:relative;
-    width:100%;
+    width:auto;
     height:100%;
+    min-width:150px;
     margin-left:auto;
     display:block;
     margin-bottom:10px;
@@ -134,23 +135,23 @@
     /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
 /*    border: dashed 1px;
     border-radius: 50%;*/
-    margin: 1.75em auto 0;
-    margin-bottom:20px;
+    margin: 1.75em auto 20px;
+    
 }
 .circle-container a {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 10em; height: 10em;
+    width: 8.5em; height: 8.5em;
     margin: -5em;
 }
 .circle-container img { display: block; width: 100%; }
-.deg0 { transform: translate(10em); } /* 12em = half the width of the wrapper */
-.deg45 { transform: rotate(55deg) translate(10em) rotate(-55deg); }
-.deg135 { transform: rotate(125deg) translate(10em) rotate(-125deg); }
-.deg180 { transform: translate(-10em); }
-.deg225 { transform: rotate(235deg) translate(10em) rotate(-235deg); }
-.deg315 { transform: rotate(305deg) translate(10em) rotate(-305deg); }
+.deg0 { transform: translate(9.5em); } /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(60deg) translate(9.5em) rotate(-60deg); }
+.deg135 { transform: rotate(120deg) translate(9.5em) rotate(-120deg); }
+.deg180 { transform: translate(-9.5em); }
+.deg225 { transform: rotate(240deg) translate(9.5em) rotate(-240deg); }
+.deg315 { transform: rotate(300deg) translate(9.5em) rotate(-300deg); }
 
 .emergency{
     text-align:right;
@@ -336,14 +337,29 @@ ul.inline-list li{
 
 .door-container{
     text-align: center;
-    margin-top: 60px;
-   
+    padding:10px;
+    position:absolute;
+    margin-top:100px;
 }
 
 .door-container img{
     float:none;
     
 }
+
+.door-container-2{
+    text-align: center;
+    padding:10px;
+    position:absolute;
+    margin-top:200px;
+}
+
+.door-container-2 img{
+    float:none;
+    
+}
+
+
 
 .background{
     background-color:black;
@@ -384,8 +400,8 @@ ul.inline-list li{
 }*/
 
 .about-us{
-    font-size: 1.7vmin;
-    
+    font-size: 2.0vmin;
+    min-width:250px;
 }
 
 
